@@ -8,7 +8,7 @@ function sumTo1(n) {
 
 function sumTo2(n) {
     if (n == 1) {
-        return n
+        return 1
     } else {
         return n + sumTo(n - 1)
     }
